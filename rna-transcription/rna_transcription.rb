@@ -4,7 +4,7 @@ class Complement
   VERSION = 3
 
   def self.of_dna(dna_string)
-    dna_array = dna_string.split('')
+    dna_array = dna_string.chars
     replace_with_rna(dna_array).join('')
   end
 
