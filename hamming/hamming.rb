@@ -14,7 +14,3 @@ class Hamming
   end
 
 end
-
-class ArgumentError < StandardError
-
-end

@@ -16,7 +16,3 @@ class Complement
   end
 
 end
-
-class ArgumentError < StandardError
-
-end
